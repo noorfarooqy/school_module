@@ -1,0 +1,39 @@
+{
+    "name": "noorfarooqy/school_module",
+    "description": "School Management System - Students Module",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^10.0.0",
+        "noorfarooqy/noorauth": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Noorfarooqy\\SchoolModule\\": "src/",
+            "Noorfarooqy\\SchoolModule\\Providers\\": "src/Providers/",
+            "Noorfarooqy\\SchoolModule\\Controllers\\": "app/Controllers/",
+            "Noorfarooqy\\SchoolModule\\DataModels\\": "app/DataModels/",
+            "Noorfarooqy\\SchoolModule\\Services\\": "app/Services/",
+            "Noorfarooqy\\SchoolModule\\Checkers\\": "app/Checkers/",
+            "Noorfarooqy\\SchoolModule\\Traits\\": "app/Traits/",
+            "Noorfarooqy\\SchoolModule\\Subscribers\\": "app/Subscribers/",
+            "Noorfarooqy\\SchoolModule\\Mail\\": "app/Mail/",
+            "Noorfarooqy\\SchoolModule\\Events\\": "app/Events/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Noor Farooqy",
+            "email": "noor@drongo.vip"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Noorfarooqy\\SchoolModule\\SchoolModuleServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "require-dev": {}
+}
